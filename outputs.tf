@@ -29,7 +29,7 @@ output lb_target_group_http_arn {
 # }
 
 output project_tag {
-  description = "Tag for aws resources in this project"
+  description = "Tag for aws resources in this project 2"
   value       = var.project_tag
 }
 
