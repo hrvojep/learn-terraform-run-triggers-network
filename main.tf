@@ -250,7 +250,7 @@ resource "aws_lb_target_group" "http" {
   health_check {
     healthy_threshold   = 3
     unhealthy_threshold = 10
-    timeout             = 5
+    timeout             = 6
     interval            = 10
     path                = "/index.html"
     port                = 80
